@@ -31,7 +31,7 @@ const autos = [
     nombre: "McLaren 720s",
     descripcion: "V8 biturbo de 4.0 litros, genera 720 PS y 770 Nm de par, con una aceleración de 0 a 100 km/h en 2.8 segundos y una velocidad máxima de 341 km/h",
     precio: "$5 MX",
-    imagen: "../imagenes/whels1.jpg",
+    imagen: "../imagenes/Captura de pantalla 2025-09-26 114358.png",
     linkMP: "https://mpago.la/2wrFjKb"
   },
   {
@@ -210,3 +210,4 @@ function vaciarCarrito() {
 document.getElementById("toggleCarrito").addEventListener("click", () => {
   document.getElementById("carrito").classList.toggle("abierto");
 });
+
