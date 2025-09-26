@@ -211,3 +211,4 @@ document.getElementById("toggleCarrito").addEventListener("click", () => {
   document.getElementById("carrito").classList.toggle("abierto");
 });
 
+
