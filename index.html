@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DYNAMO PERFORMANCE</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>DYNAMO PERFORMANCE</h1>
+    <!-- Botón hamburguesa -->
+    <div class="menu-btn" id="menu-btn">
+        ☰
+    </div>
+
+    <!-- Menú lateral -->
+    <nav class="side-menu" id="side-menu">
+        <a href="#inicio"><i class="fas fa-home"></i> Inicio</a>
+        <a href="#galeria"><i class="fas fa-car"></i> Modelo</a>
+        <a href="#quienes-somos"><i class="fas fa-question-circle"></i> ¿Quiénes Somos?</a>
+        <a href="#grupo"><i class="fas fa-user"></i> Equipo</a>
+        <a href="#Contacto"><i class="fas fa-phone"></i> Contacto</a>
+    </nav>
+    <section class="hero" id="inicio">
+        <div class="hero-text">
+            <h1>Diseñado para emocionar</h1>
+            <p>El rendimiento se encuentra con la perfección.</p>
+            <a href="#galeria" class="btn">Descubre más</a>
+        </div>
+    </section>
+
+
+    <section class="quienes-somos" id="quienes-somos">
+        <div class="contenido">
+            <div class="texto">
+                <h2>¿Quienes somos?</h2>
+                <p>
+                    Somos una empresa destinada a la venta de vehiculos de alta gama combinando velocidad y elegancia, ingenieria de primera, nos impulsa la excelencia, el diseño impecable y la pasion por la velocidad y conservando los motores a combustion de base de gasolina, apoyando a las ideas de los mejores pilotos, y la opinion publica, no incorporando a la electricidad.
+                </p>
+            </div>
+            <div class="imagen">
+                <img src="imagenes/logo DNMPFN.jpg" alt="logo">
+            </div>
+        </div>
+    </section>
+
+    <section class="models reveal">
+        <h2>Modelos destacados</h2>
+        <div class="model-grid">
+            <div class="model-card">
+                <img src="imagenes/porsche.avif" alt="911 Carrera">
+                <h3>911 Carrera</h3>
+                <p>Desde $122,095</p>
+            </div>
+            <div class="model-card">
+                <img src="imagenes/dodge.webp" alt="Dodge">
+                <h3>Dodge Challenger Demon</h3>
+                <p>Desde  $78,530</p>
+            </div>
+            <div class="model-card">
+                <img src="imagenes/shelby.jpg" alt="Shelby">
+                <h3>Mustang Shelby</h3>
+                <p>Desde $80,795</p>
+            </div>
+        </div>
+    </section>
+
+   <section class="galeria" id="galeria">
+    <h1>Modelos Exclusivos</h1>
+    <div class="autos-grid" id="autosGrid"></div>
+  </section>
+
+    <section class="detalle-auto" id="detalleAuto">
+        <div class="imagen">
+            <img id="detalleImg" src="imagenes/shelby.jpg" alt="Auto" />
+            <h2 id="detalleNombre"></h2>
+            <p id="detalleDescripcion"></p>
+            <h3 id="detallePrecio"></h3>
+        </div>
+        <div class="info">
+            <form class="compra-form" id="compraForm">
+                <label>Color:</label>
+                <select required>
+                    <option>Negro</option>
+                    <option>Rojo</option>
+                    <option>Blanco</option>
+                </select>
+                <label>Financiamiento:</label>
+                <select required>
+                    <option>Contado</option>
+                    <option>12 meses</option>
+                    <option>24 meses</option>
+                </select>
+                <label>Correo electrónico:</label>
+                <input type="email" required placeholder="tu@correo.com" />
+                <button type="submit">Confirmar compra</button>
+            </form>
+        </div>
+    </section>
+
+  <div class="volver" id="volverBtn" style="display:none;">
+    <button onclick="mostrarGaleria()">← Volver a la galería</button>
+  </div>
+
+   <section id="grupo">
+        <h2>Equipo</h2>
+        <div class="equipo">
+            <div class="miembro">
+                <img src="imagenes/yo.png" alt="miembro1">
+                <h3>Óscar Fernández Márquez</h3>★★★★★
+                <p>Programador</p>
+            </div>
+             <div class="miembro">
+                <img src="imagenes/Cheli.png" alt="miembro2" >
+                <h3>Aracely Enedina Rincon Cruz</h3>★★★★★
+                <p>Gestora de documentacion</p>
+            </div>
+          <div class="miembro">
+            <img src="imagenes/Laura.png" alt="miembro3">
+            <h3>Laura Liliana Mendoza Dominguez</h3>★★★★☆
+            <p>Diseñadora de presentacion</p>
+        </div>
+
+        <div class="miembro">
+            <img src="imagenes/Raul.png" alt="miembro4">
+            <h3>Raul Avila Romero</h3>★★★★☆
+            <p>Diseñador de portadas</p>
+        </div>
+        </div>
+    </section>
+
+<section id="Contacto">
+    <div class="ubicacion">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d937.7086905443922!2d-96.85108163016355!3d19.931366799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85db11237232e069%3A0xd9cf63a0aac7544c!2sCEIT%20Misantla!5e0!3m2!1ses-419!2smx!4v1756227923296!5m2!1ses-419!2smx" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="redes-sociales">
+            <h2>Síguenos</h2>
+            <div class="content-redes">
+                <div class="tarjeta-red">
+                    <a href="https://www.facebook.com/profile.php?id=61579966378651&mibextid=wwXIfr&mibextid=wwXIfr" target="_blank" aria-label="Facebook">
+                        <img src="imagenes/icons8-facebook-nuevo-48.png" alt="Facebook" />
+                    </a>
+                    <i class="fab fa-twitter"></i>
+                    <span>Facebook</span>
+                </div>
+                <div class="tarjeta-red">
+                    <a href="https://x.com/fm_oscxrr?t=2aJGJTOccOiwz2qyZ8OFQQ&s=09" target="_blank" aria-label="Twitter">
+                        <img src="imagenes/icons8-twitterx-50.png" alt="Twitter" />
+                    </a>
+                    <i class="fab fa-instagram"></i>
+                    <span>Twitter</span>
+                </div>
+                <div class="tarjeta-red">
+                    <a href="https://www.instagram.com/dynamo_performace?igsh=MXNwMXFxemxxMzNhZA==" target="_blank" aria-label="Instagram">
+                        <img src="imagenes/icons8-instagram.gif" alt="Instagram" />
+                    </a>
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </div>
+            </div>
+    </div>
+</section>
+
+    <div id="carrito" class="carrito">
+  <h2>🛒 Tu Carrito</h2>
+  <ul id="listaCarrito"></ul>
+  <p>Total: <span id="totalCarrito">$0.00</span></p>
+  <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+</div>
+<button id="toggleCarrito" class="carrito-btn">🛒</button>
+
+    
+
+    <footer>
+        
+    <section id="privacidad">
+        <div class="privacy">
+            <hr />
+            <p>© 2025 - Dynamo Performance. Todos los derechos reservados.</p>
+        </div>
+    </section>
+    </footer>
+
+      <script src="js/mains.js"></script>
+      <script src="js/carros.js"></script>
+</body>
+</html>
